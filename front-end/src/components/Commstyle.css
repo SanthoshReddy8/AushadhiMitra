@@ -1,0 +1,65 @@
+.abheader {
+    min-height: 70vh;
+    background-image: url('../imgs/bg.jpeg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.abheader, .cta,
+.sub-header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../imgs/bg.jpeg');
+}
+
+.abheader, .light-mode .sub-header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../imgs/bg.jpeg');
+}
+
+.abtext-box{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.blogs {
+    max-width: 700px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.blog {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog h3 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.blog p {
+    padding: 0;
+}
+
+.blog-meta {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.blog-content {
+    font-size: 16px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.post-status {
+    text-align: center;
+}
+
+.post-error {
+    color: #c62828;
+}
+
